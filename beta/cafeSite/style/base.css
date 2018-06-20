@@ -1,0 +1,125 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+	.col {
+		max-width: 8.333%;
+		padding: 2px;
+	}
+
+	.col-2 {
+		max-width: 16.666%;
+		padding: 2px;
+	}
+
+	.col-3 {
+		min-width: 24.98%;
+		max-width: 24.999%;
+		padding: 2px;
+	}
+
+	.col-4 {
+		min-width: 33.332%;
+		max-width: 33.332%;
+		padding: 2px;
+	}
+
+	.col-5 {
+		max-width: 41.665%;
+		padding: 2px;
+	}
+
+	.col-6 {
+		min-width: 49.98%;
+		max-width: 49.998%;
+		padding: 2px;
+	}
+
+	.col-7 {
+		max-width: 58.331%;
+		padding: 2px;
+	}
+
+	.col-8 {
+		max-width: 66.664%;
+		padding: 2px;
+	}
+
+	.col-9 {
+		max-width: 74.997%;
+		padding: 2px;
+	}
+
+	.col-10 {
+		max-width: 83.333%;
+		padding: 2px;
+	}
+
+	.col-11 {
+		max-width: 91.663%;
+		padding: 2px;
+	}
+
+	.col-12 {
+		max-width: 100%;
+		padding: 2px;
+	}
+
+	.left {
+		float: left;
+	}
+
+	.right {
+		float: right;
+	}
+
+	.both {
+		float: both;
+	}
+
+	.clear-float {
+		float: none;
+	}
+
+	.bordered {
+		border: solid 1px lightgrey;
+	}
+
+@media screen and (max-width: 480px) {
+
+	.container {
+		width: 100%;
+		padding: 0 10px;
+	}
+
+	.row-xs {
+		min-height: 640px;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px){
+
+	.container {
+		max-width: 100%;
+		padding: 0 10px;
+	}
+
+	.row-s {
+		min-height: 800px;
+	}
+}
+
+@media screen and (min-width: 721px) and (max-width: 1200px){
+
+	.container {
+		max-width: 480px;
+		padding: 0 10px;
+	}
+
+	.row-m {
+		min-height: 1024px;
+	}
+}
+

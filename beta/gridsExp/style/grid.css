@@ -1,0 +1,44 @@
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.wrap {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.grid-item {
+	width: calc((100% - 20px * 2) / 3);
+	text-align: center;
+	border: solid 1px;
+}
+
+.grid-item:nth-chlid(1) {
+	background: green;
+}
+
+.grid-item:nth-chlid(2) {
+	background-color: blue;
+}
+
+.grid-item:nth-chlid(3) {
+	background-color: yellow;
+}
+
+.three-col-grid .grid-item {
+	width: 33.333333%;
+	float: left;
+}
+
+.three-col-grid::after {
+	display: table;
+	clear: both;
+	content: '';
+}
