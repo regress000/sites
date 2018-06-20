@@ -1,0 +1,39 @@
+html {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+* {
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+
+.container {
+	min-height: 840px;
+}
+
+.container_s {
+	min-height: 240px;
+}
+
+.container_xs {
+	min-height: 120px;
+}
+
+.wrap {
+	max-width: 100%;
+	padding: 0 20px;
+}
+
+.col_1 {
+	width: 33.3333%;
+	float: left;
+	max-width: 100%;
+}
+
+.col_3 {
+	width: 90%;
+	margin: 0 auto;
+	border: solid 1px black;
+}
