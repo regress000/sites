@@ -1,0 +1,73 @@
+html {
+	max-width: 640px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+
+
+header {
+	min-height: 300px;
+	padding: 2px;
+}
+
+	.logo {
+		max-width: 100%;
+		min-height: 240px;
+	}
+
+	header nav {
+		min-height: 120px;
+	}
+
+		header nav ul {
+			display: block;
+			padding: 0px;
+			margin: 0px;
+			list-style-type: none;
+		}
+
+		header nav ul li {
+			width: 95%;
+			min-height: 30px;
+			margin: 0 auto;
+			padding: 2px;
+		}
+
+		header nav ul li a {
+			display: block;
+			text-decoration: none;
+			text-align: center;
+			border: solid 1px black;
+			border-radius: 3px;
+		}
+
+		.nav_item {
+			font-weight: bold;
+			font-family: monospace;
+			font-size: 1.2em;
+		}
+
+main {
+
+}
+
+	.container {
+		width: 98%;
+		min-height: 300px;
+		margin: 0 auto;
+		background-color: lightgray;
+	}
+
+		.content_box {
+			min-height: 120px;
+		}
+
+			.content_box:nth-child(even) {
+				background-color: gray;
+			}
+
+			.content_box:nth-child(odd) {
+				background-color: darkgrey;
+			}
+
