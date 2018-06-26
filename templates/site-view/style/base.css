@@ -3,6 +3,7 @@ html {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0 auto;
+	background-color: #aac;
 }
 
 
@@ -21,7 +22,6 @@ html {
 		max-width: 90%;
 		min-height: 50px;
 		margin: 0 auto;
-		border: solid 1px black;
 		text-align: center;
 	}
 
@@ -48,7 +48,55 @@ html {
 					min-width: 70px;
 					padding: 2px 10px;
 					margin: 10px 20px;
-					border: solid 3px darkgreen;
+					border: solid 3px lightgreen;
 					border-top-right-radius: 15px;
 					border-bottom-left-radius: 15px;
 				}
+
+.mainspace {
+	max-width: 98%;
+	margin: 0 auto;
+	padding: 10px 5px;
+
+}
+
+	.content {
+		background-color: lightgray;	
+		padding: 10px 15px;
+	}	
+
+	.text_block {
+		margin: 30px auto;
+	}
+
+	.icon {
+		width: 32px;
+		height: 32px;
+		border-radius: 5px;
+		border: solid 2px red;
+		background-color: darkgrey;
+		float: left;
+	}
+
+			.text_preview {
+				max-width: 100%;
+				margin-left: 40px;
+			}
+
+				.button_more {
+					display: block;
+					width: 15%;
+					margin-left: 85%;
+					text-align: center;
+					text-decoration: none;
+					font-family: monospace;
+					color: black;
+					font-weight: bolder;
+				} 
+
+
+.divider {
+	width: 60%;
+	height: 3px;
+	background-color: blue;
+}
