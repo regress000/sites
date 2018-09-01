@@ -1,0 +1,22 @@
+html {
+	max-width: 100%;
+	min-height: 1600px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	max-width: 100%;
+}
+
+.base {
+	max-width: 95%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.footer {
+	max-width: 100%;
+	min-height: 120px;
+}
